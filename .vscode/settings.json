@@ -1,0 +1,6 @@
+{
+  /** Organize code */
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },  
+}
