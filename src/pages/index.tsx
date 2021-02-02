@@ -1,30 +1,20 @@
 import React from 'react'
 import Head from 'next/head'
-import Logo from '../assets/logoCircle100.svg'
+// import Logo from '../assets/logoCircle100.svg'
 import { Container } from '../styles/pages/Home'
+import TimeSeries from '../components/time-series'
 
 const Home: React.FC = () => {
   return (
     <Container>
       <Head>
-        <title>Homepage</title>
+        <title>Time Series</title>
       </Head>
 
       <main>
-        <Logo />
-        <h1>ReactJS Structure</h1>
-        <p>A ReactJS + Next.js structure</p>
+        <h1>Stock Prices</h1>
+        <TimeSeries />
       </main>
-
-      <footer>
-        <a
-          href="https://github.com/amaralc"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by ...
-        </a>
-      </footer>
     </Container>
   )
 }

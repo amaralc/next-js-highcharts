@@ -16,13 +16,11 @@ export const Container = styled.div`
     align-items: center;
 
     flex-direction: column;
-    width: 50%;
 
     h1 {
       font-size: 54px;
       color: ${props => props.theme.colors.primary};
       margin-top: 40px;
-      margin-bottom: 40px;
     }
 
     p {

@@ -8,11 +8,16 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "highcharts": "^8.2.2",
+    "highcharts-react-official": "^3.0.0",
+    "json-server": "^0.16.3",
     "next": "10.0.4",
     "next-images": "^1.6.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
-    "styled-components": "^5.2.1"
+    "styled-components": "^5.2.1",
+    "swr": "^0.4.1"
   },
   "devDependencies": {
     "@types/node": "^14.14.16",

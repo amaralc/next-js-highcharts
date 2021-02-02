@@ -41,10 +41,10 @@ export default class MyDocument extends Document {
       <Html lang="pt">
         <Head>
           <meta charSet="utf-8" />
-          <link
+          {/* <link
             href="https://fonts.google.com/css?family=Roboto:400,500,700"
             rel="stylesheet"
-          />
+          /> */}
           <link rel="icon" href="https://peerlab.com.br/peerlab.ico" />
         </Head>
         <body>
